@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Monkey Wishes";
+  src: url("fonts/Monkeywishes-M7Vp.ttf") format("truetype");
+}
+@font-face {
+  font-family: "That Paper";
+  src: url("fonts/Thatpaper-arx5.ttf") format("truetype");
+}
+header h1 {
+  font-family: "Monkey Wishes", sans-serif;
+  font-size: 80px;
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+header nav ul li a {
+  font-family: "That Paper", sans-serif;
+  font-size: 26px;
+}
