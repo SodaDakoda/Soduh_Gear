@@ -70,3 +70,74 @@ header nav ul li a {
   width: 200px;
   height: auto;
 }
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#about-me {
+  flex: 1 1 400px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#skills {
+  flex: 1 1 200px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  align-self: flex-start;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#hobbies {
+  flex: 1 1 620px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#about-me h2,
+#skills h3,
+#hobbies h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.about-container h2 {
+  font-family: "That Paper", sans-serif;
+  font-size: 40px;
+}
+
+#skills h3 {
+  font-family: "That Paper", sans-serif;
+  font-size: 40px;
+}
+
+#hobbies h3 {
+  font-family: "That Paper", sans-serif;
+  font-size: 40px;
+}
