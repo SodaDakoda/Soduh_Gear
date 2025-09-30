@@ -185,6 +185,22 @@ header nav ul li a {
   color: #333;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+
 footer {
   bottom: 0;
   left: 0;
@@ -315,5 +331,21 @@ footer {
   footer {
     padding: 8px 15px;
     font-size: 14px;
+  }
+}
+
+main h1,
+main h2,
+main h3,
+main p,
+main blockquote,
+main img {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+@supports (height: 100dvh) {
+  .page-container {
+    min-height: 100dvh;
   }
 }
